@@ -21,6 +21,7 @@
     border: 2px solid red;
     border-radius: 5px;
     background-color: #c2b7ff;
+    margin: auto;
 }
 
 .submit {
@@ -60,7 +61,30 @@
     padding: 0;
 }
 
-.class-data {
-    border-collapse: collapse;
+.class-data{
     border: 1px solid darkblue;
 }
+
+.class-data th{
+    border: 1px solid darkblue;
+}
+
+.hamburger-menu img{
+    float: left;
+    width: 3em;
+    height: 3em;
+}
+
+.class-search-bar {
+    float: top;
+    padding: 2px;
+}
+
+.table-and-search {
+    float: right;
+    border: 1px solid darkblue;
+    border-radius: 2px;
+}
+/*.hamburger-menu{*/
+/*    float: left;*/
+/*}*/

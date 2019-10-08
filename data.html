@@ -3,30 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Data</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<table class="class-data">
-    <tr>
-        <th>Rating</th>
-        <th>Name</th>
-        <th>Workload</th>
-    </tr>
-    <tr>
-        <th><span style="color:yellow">&#9733 &#9733 &#9733</span></th>
-        <th>Programing Language Concepts</th>
-        <th>Light</th>
-    </tr>
-    <tr>
-        <th><span style="color:yellow">&#9733 &#9733</span></th>
-        <th>Web Development</th>
-        <th>Heavy</th>
-    </tr>
-    <tr>
-        <th><span style="color:yellow">&#9733 &#9733 &#9733 &#9733</span></th>
-        <th>Databases</th>
-        <th>Normal</th>
-    </tr>
+<div class="flex-container">
+    <h1 class="logo">Class Rater</h1>
 
-</table>
+    <div class="table-and-search">
+    <div class="class-search-bar">
+        <input type="text" placeholder="Search Classes">
+    </div>
+
+    <table class="class-data">
+        <tr>
+            <th>Rating</th>
+            <th>Name</th>
+            <th>Workload</th>
+            <th>More Info</th>
+        </tr>
+        <tr>
+            <th><span style="color:yellow">&#9733 &#9733 &#9733</span></th>
+            <th>Programing Language Concepts</th>
+            <th>Light</th>
+            <th><a href="example.com" alt="link to class">Link</a></th>
+        </tr>
+        <tr>
+            <th><span style="color:yellow">&#9733 &#9733</span></th>
+            <th>Web Development</th>
+            <th>Heavy</th>
+            <th><a href="example.com" alt="link to class">Link</a></th>
+        </tr>
+        <tr>
+            <th><span style="color:yellow">&#9733 &#9733 &#9733 &#9733</span></th>
+            <th>Databases</th>
+            <th>Normal</th>
+            <th><a href="example.com" alt="link to class">Link</a></th>
+        </tr>
+
+    </table>
+    </div>
+    <footer>
+        <ul class="footerList">
+            <li>About</li>
+            <li>FAQ</li>
+        </ul>
+    </footer>
+</div>
 </body>
 </html>
